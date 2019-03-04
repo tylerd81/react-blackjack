@@ -1,0 +1,21 @@
+.playing-card {
+  
+  display: inline-block;
+  height: 175px;
+  width: 125px;
+  margin: 0 10px;
+  
+  padding: 0;
+}
+
+.card-image {
+  height: 175px;
+  width: 125px;
+}
+.card-back {
+  
+}
+
+.card-front {
+  
+}
