@@ -55,7 +55,7 @@ class App extends Component {
     let dealerTotal = Deck.calculateHandTotal(dealerHand);
     let playerTotal = Deck.calculateHandTotal(this.state.playerHand);
 
-    while(dealerTotal <= 16) {
+    while(dealerTotal <= 16 && dealerTotal < playerTotal) {
       dealerHand.push(Deck.dealSingleCard());
       dealerTotal = Deck.calculateHandTotal(dealerHand);
     }
